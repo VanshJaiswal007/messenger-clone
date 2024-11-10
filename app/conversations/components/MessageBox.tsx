@@ -5,7 +5,6 @@ import { format } from 'date-fns';
 import { useSession } from 'next-auth/react';
 import Image from 'next/image';
 import React, {useState } from 'react';
-import useConversation from '@/app/hooks/useConversation';
 import ImageModal from './ImageModal';
 
 interface MessageBoxProps {

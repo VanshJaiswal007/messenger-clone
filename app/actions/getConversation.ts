@@ -1,6 +1,6 @@
 import prisma from "@/app/libs/prismadb"
 import getCurrentUser from "./getCurrentUser"
-
+/* eslint-disable */
 const getConversations = async () => {
     const currentUser = await getCurrentUser();
 
