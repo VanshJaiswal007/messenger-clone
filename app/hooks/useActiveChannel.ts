@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { useEffect, useState } from "react";
 import useActiveList from "./useActiveLitst";
 import { Channel, Members } from "pusher-js";

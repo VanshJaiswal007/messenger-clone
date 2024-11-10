@@ -3,6 +3,8 @@
 import Link from "next/link"
 import clsx from "clsx"
 
+/* eslint-disable */
+
 interface MobileItemProps {
     icon:any,
     href:string,

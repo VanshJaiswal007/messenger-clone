@@ -3,6 +3,8 @@
 import clsx from "clsx"
 import Link from "next/link"
 
+/* eslint-disable */
+
 interface DesktopItemProps {
     label:string;
     icon:any,

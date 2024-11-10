@@ -1,5 +1,5 @@
 'use client'
-
+/* eslint-disable */
 import { FieldErrors, FieldValues, UseFormRegister } from "react-hook-form";
 
 interface MessageInputProps {

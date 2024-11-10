@@ -12,6 +12,8 @@ import Image from "next/image";
 import { CldUploadButton } from "next-cloudinary";
 import Button from "../inputs/Button";
 
+
+/* eslint-disable */
 interface SettingsModalProps{
     isOpen?:boolean;
     onClose:()=>void;

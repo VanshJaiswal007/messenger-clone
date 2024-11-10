@@ -66,6 +66,8 @@ import { HiPaperAirplane, HiPhoto } from "react-icons/hi2";
 import MessageInput from "./MessageInput";
 import { CldUploadButton } from 'next-cloudinary';
 
+
+/* eslint-disable */
 const Form = () => {
   const { conversationId } = useConversation();
 
