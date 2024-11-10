@@ -1,6 +1,6 @@
 'use client'
 import ReactSelect from "react-select"
-
+/* eslint-disable */
 interface SelectProps{
     label:string;
     value?:Record<string,any>

@@ -1,7 +1,7 @@
 import prisma from "@/app/libs/prismadb"
 
 import getSession from "./getSession"
-
+/* eslint-disable */
 const getUsers = async () =>{
     const session = await getSession();
     

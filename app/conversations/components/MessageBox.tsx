@@ -1,11 +1,10 @@
 import Avatar from '@/app/components/Avatar';
 import { FullMessageType } from '@/app/types';
-import axios from 'axios';
 import clsx from 'clsx';
 import { format } from 'date-fns';
 import { useSession } from 'next-auth/react';
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
+import React, {useState } from 'react';
 import useConversation from '@/app/hooks/useConversation';
 import ImageModal from './ImageModal';
 
@@ -29,7 +28,6 @@ const MessageBox: React.FC<MessageBoxProps> = ({ data, isLast }) => {
     const body = clsx("flex flex-col gap-2", isOwn && 'items-end');
     
     // Make sure this returns the conversation ID as a string
-    const conversationId = useConversation(); 
 
     const message = clsx("text-sm w-fit overflow-hidden",
         isOwn ? 'bg-sky-500 text-white' : 'bg-gray-100', 
